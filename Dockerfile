@@ -4,4 +4,4 @@ COPY ./app /app
 WORKDIR "/app"
 RUN conda install --file /tmp/requirements.txt
 ENTRYPOINT [ "python3" ]
-CMD [ "lake_mead_dashboard.py.py" ]
+CMD [ "lake_mead_dashboard.py" ]
